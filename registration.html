@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+  <style>
+    /* CSS styles for the page can be added here */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Registration</h1>
+  </header>
+
+  <nav>
+    <!-- Navigation bar content goes here -->
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="registration.html">Registration</a></li>
+      <li><a href="postvideo.html">Post Video</a></li>
+      <li><a href="viewpost.html">View Post</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Registration Form</h2>
+    <form action="registration_process.php" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+      
+      <label for="age">Are you 13+ years old?</label>
+      <input type="checkbox" id="age" name="age" required>
+      
+      <label for="tos">Accept TOS and Privacy Rules:</label>
+      <input type="checkbox" id="tos" name="tos" required>
+      <a href="#">TOS and Privacy Rules</a>
+      
+      <input type="submit" value="Register">
+    </form>
+  </section>
+
+  <footer>
+    <!-- Footer content goes here -->
+    <p>Footer Text</p>
+  </footer>
+</body>
+</html>
