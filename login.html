@@ -1,0 +1,44 @@
+# HTML-File
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    /* CSS styles for the page can be added here */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Login</h1>
+  </header>
+
+  <nav>
+    <!-- Navigation bar content goes here -->
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="registration.html">Registration</a></li>
+      <li><a href="postvideo.html">Post Video</a></li>
+      <li><a href="viewpost.html">View Post</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Login Form</h2>
+    <form action="login_process.php" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <input type="submit" value="Login">
+    </form>
+  </section>
+
+  <footer>
+    <!-- Footer content goes here -->
+    <p>Footer Text</p>
+  </footer>
+</body>
+</html>
