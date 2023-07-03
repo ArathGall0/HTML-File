@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>View Post</title>
+  <style>
+    /* CSS styles for the page can be added here */
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <!-- Navigation bar content goes here -->
+    <ul class ="ul">
+      <li><a class="odd" href="index.html">Home</a></li>
+      <li><a class="odd" href="login.html">Login</a></li>
+      <li><a class="odd" href="registration.html">Registration</a></li>
+      <li><a class="odd" href="postvideo.html">Post Video</a></li>
+      <li><a class="odd" href="viewpost.html">View Post</a></li>
+    </ul>
+  </nav>
+
+  <h2 class = "even">View Post</h2>
+
+  <div>
+    <h3 class = "even">Title: <span id="postTitle"></span></h3>
+    <p class = "even">Author: <span id="postAuthor"></span></p>
+    <p class = "even">Creation Time: <span id="postCreationTime"></span></p>
+    <video controls>
+      <source src="path/to/video.mp4" type="video/mp4">
+    </video>
+    <div id="comments">
+      <!-- Comment section content goes here -->
+    </div>
+  </div>
+
+  <script>
+    // JavaScript code for populating the post details can be added here
+    document.getElementById("postTitle").textContent = "Post Title";
+    document.getElementById("postAuthor").textContent = "Post Author";
+    document.getElementById("postCreationTime").textContent = "Post Creation Time";
+  </script>
+	
+</body>
+</html>
